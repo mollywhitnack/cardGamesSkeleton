@@ -8,8 +8,7 @@ function Player(input) {
     this.hand = [];
     this.currBet = 0;
     this.score=0;
-
-    this.lastAction = "";     
+     
     this.isDone = false;      
 }
 
@@ -18,7 +17,6 @@ Player.prototype.reset = function() {
     this.currBet = 0;
     this.score = 0;
 
-    this.lastAction = "";
     this.isDone = false;
 };
 
